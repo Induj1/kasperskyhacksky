@@ -44,12 +44,12 @@ const FAQ = () => {
   const teamFaqs = [
     {
       question: "How many members can be in a team?",
-      answer: "Each team should have 1-3 members. We encourage diverse teams with complementary skills.",
+      answer: "Each team should have 3 members. We encourage diverse teams with complementary skills.",
       value: "team-1"
     },
     {
       question: "Can I participate individually?",
-      answer: "Yes, you can register as an individual. The competition is open to individual or team submissions.",
+      answer: "No, you cant register as an individual. The competition is open to team submissions.",
       value: "team-2"
     },
     {

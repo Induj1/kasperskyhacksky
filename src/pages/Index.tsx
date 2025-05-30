@@ -367,7 +367,7 @@ const Index = () => {
                   <AccordionContent>
                     <p className="text-gray-300">
                       A 24-hour coding marathon where teams will tackle challenging cybersecurity problems across three tracks. 
-                      Team size: 1-3 members.
+                      Team size: 3 members.
                     </p>
                   </AccordionContent>
                 </AccordionItem>

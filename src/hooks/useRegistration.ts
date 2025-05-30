@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { supabase } from '@/integrations/supabase/client';
 import { useToast } from '@/hooks/use-toast';
@@ -11,7 +10,6 @@ interface TeamMember {
 
 interface RegistrationData {
   teamName: string;
-  teamSize: string;
   leaderName: string;
   leaderEmail: string;
   leaderPhone: string;
@@ -38,7 +36,7 @@ export const useRegistration = () => {
         .insert([
           {
             team_name: data.teamName,
-            team_size: parseInt(data.teamSize),
+            team_size: 3, // Fixed team size of 3
             leader_name: data.leaderName,
             leader_email: data.leaderEmail,
             leader_phone: data.leaderPhone,
