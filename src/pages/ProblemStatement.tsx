@@ -82,7 +82,7 @@ const ProblemStatement = () => {
                 <h3 className="text-xl font-semibold mb-4 text-cyber-green">Important Guidelines</h3>
                 <ul className="text-gray-300 space-y-2 text-left">
                   <li>• Teams can participate in only one track</li>
-                  <li>• Team size: 1-3 members</li>
+                  <li>• Team size: 3 members</li>
                   <li>• 24-hour coding marathon</li>
                   <li>• Solutions must be original and developed during the hackathon</li>
                   <li>• All code must be submitted via GitHub</li>
